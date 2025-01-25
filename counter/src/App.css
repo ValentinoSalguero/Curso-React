@@ -1,0 +1,51 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #121212; /* Fondo oscuro */
+  color: white; /* Color de texto blanco */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.counter-display {
+  margin-top: 20px;
+}
+
+.counter-display img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.counter-display h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
